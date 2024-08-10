@@ -1,0 +1,58 @@
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    margin-top: 100px;
+    width: 450px; 
+}
+.calc .display{
+    width: 430px;
+    height: 90px;
+    outline: 10px solid black;
+    background-color: orange;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.calc .buttons{
+    margin-top: 5px;
+
+}
+
+.calc .buttons button{
+    border: 1px solid gray;
+    padding: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    width: 25%;
+    height: 70px;
+}
+.calc .buttons button:hover{
+    background-color: gray;
+    color: black;
+}
+.calc .buttons .clear{
+    color: orange;
+  width: 450px;
+}
+
+.calc .buttons .clear:hover{
+    background-color: orange;
+}
+.calc .buttons .symbol{
+    color: orange;
+    width: 25%;
+}
+.calc .buttons .symbol:hover{
+    background-color: orange;
+}
+
+.calc .bottom{
+    display: flex;
+}
